@@ -37,5 +37,6 @@ public class Main {
 //                .replaceAll("((\\w\\w){16})((\\w\\w){16})","  $1 $3 \n");
                 .replaceAll("((\\w\\w){8})((\\w\\w){8})((\\w\\w){8})((\\w\\w){8})","  $1 $3  $5 $7 \n");
         System.out.println(key);
+        System.out.println("1234567843210987".replaceAll("(\\d{4})", "$1 "));
     }
 }
